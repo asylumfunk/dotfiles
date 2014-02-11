@@ -1,0 +1,18 @@
+autodetach on
+bind + resize +1
+bind - resize -1
+bind = resize =
+bind _ resize max
+bind G focus bottom
+bind g focus top
+bind j focus down
+bind k focus up
+bind r remove
+bind s split
+bind v split -v
+caption string "%?%F%{= Bk}%? %t %{= kB} %u%= %?%F%{= Bk}%:%{= wk}%? %n "
+defutf8 on
+escape `e
+hardstatus alwayslastline '%{= kG}[ %{G}%H %{g}][%= %{= kw}%?%-Lw%?%{r}(%{W}%n*%f%t%?(%u)%?%{r})%{w}%?%+Lw%?%?%= %{g}][%{B} %Y/%m/%d %{W}%c %{g}]'
+startup_message off
+term screen-256color
