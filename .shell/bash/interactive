@@ -1,0 +1,5 @@
+#!/bin/bash
+
+. "${HOME}/.shell/posix/interactive"
+. "${HOME}/.shell/bash/shopt"
+

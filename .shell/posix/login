@@ -1,0 +1,4 @@
+#!/bin/sh
+
+. "${HOME}/.shell/posix/export"
+

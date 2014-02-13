@@ -26,15 +26,5 @@ find \
 		ln -s "${src_link}" "${dst_link}"
 ' -- "{}" "${backup_dir}" \;
 
-#allow '.profile' to take precedence
-for file in .bash_profile .bash_login; do
-	file=${HOME}/${file}
-	if [ -h "${file}" ]; then
-		rm "${file}"
-	elif [ -e "${file}" ]; then
-		mv "${file}" "${backup_dir}"
-	fi
-done
-
 find -type d -name "${backup_prefix}*" -empty -delete
 

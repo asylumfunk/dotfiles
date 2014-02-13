@@ -1,0 +1,7 @@
+#!/bin/sh
+
+export ENV=${HOME}/.shell/posix/interactive
+export BASH_ENV=${HOME}/.shell/bash/env
+
+umask 0077
+
