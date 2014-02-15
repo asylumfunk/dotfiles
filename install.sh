@@ -7,9 +7,9 @@ mkdir "${backup_dir}"
 
 find \
 	-mindepth 1 -maxdepth 1 \
-	-not -name '.git' -a \
-	-not -name '.*.*' -a \
-	-name '.*' \
+	\! -name '.git' \
+	\! -name '.*.*' \
+	   -name '.*' \
 	-exec sh -c '
 		file=${1##*/}
 		src_backup=${HOME}/${file}
