@@ -10,6 +10,7 @@ find \
 	\! -name '.git' \
 	\! -name '.*.*' \
 	   -name '.*' \
+	-o -name '.*.local' \
 	-exec sh -c '
 		file=${1##*/}
 		src_backup=${HOME}/${file}
