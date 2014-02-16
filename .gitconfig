@@ -4,11 +4,11 @@
 	ba = branch --all
 	bd = branch --delete
 	c = commit
-	co = checkout
-	cob = checkout -b
 	d = diff
 	dc = diff --cached
 	dm = diff master
+	k = checkout
+	kb = checkout -b
 	l = log
 	ll = log --all --decorate --graph --pretty=medium -p
 	m = merge
