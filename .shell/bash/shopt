@@ -111,7 +111,7 @@ shopt -u extdebug
 
 # the extended pattern matching features described above under Pathname
 # Expansion are enabled.
-shopt -u extglob
+shopt -s extglob
 
 # $'string' and $"string" quoting is performed within ${parameter}
 # expansions enclosed in double quotes.  This option is enabled by
