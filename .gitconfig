@@ -1,3 +1,25 @@
+[alias]
+	a = add
+	b = branch
+	ba = branch --all
+	bd = branch --delete
+	c = commit
+	co = checkout
+	cob = checkout -b
+	d = diff
+	dc = diff --cached
+	dm = diff master
+	l = log
+	ll = log --all --decorate --graph --pretty=medium -p
+	m = merge
+	p = pull
+	ps = push
+	s = status -sb
+	sh = show
+	st = stash
+	t = tag
+	w = whatchanged
+
 [format]
 	pretty = %Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset
 
