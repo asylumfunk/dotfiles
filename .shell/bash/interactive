@@ -3,13 +3,3 @@
 . "${HOME}/.shell/posix/interactive"
 . "${HOME}/.shell/bash/shopt"
 
-function map_aliases_from_git_to_bash {
-	local external_regex='^alias\.\([^ ]*\)[ ]\+\!\(.*\)$'
-	local internal_regex='^alias\.\([^ ]*\)[ ]\+\([^ !]\+\)\(.*\)$'
-	local git_aliases='git config --get-regexp "^alias\.[^ ]+"'
-	local bash_aliases=$(eval ${git_aliases} | \
-		sed -e "s/${internal_regex}/alias g\1='git \1';/" \
-		    -e "s/${external_regex}/alias g\1='\2';/")
-	eval ${bash_aliases}
-}; map_aliases_from_git_to_bash
-
