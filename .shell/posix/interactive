@@ -1,5 +1,5 @@
 #!/bin/sh
 
-. "${HOME}/.shell/posix/alias"
 . "${HOME}/.shell/posix/function"
+. "${HOME}/.shell/posix/alias"
 
