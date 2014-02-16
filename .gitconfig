@@ -4,21 +4,21 @@
 	ba = branch --all
 	bd = branch --delete
 	c = commit
+	cm = commit -m
 	d = diff
 	dc = diff --cached
 	dm = diff master
+	f = fetch
+	fo = fetch origin
 	k = checkout
 	kb = checkout -b
+	km = checkout master
 	l = log
 	ll = log --all --decorate --graph --pretty=medium -p
 	m = merge
-	p = pull
-	ps = push
+	p = push
+	po = push origin
 	s = status -sb
-	sh = show
-	st = stash
-	t = tag
-	w = whatchanged
 
 [format]
 	pretty = %Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset
