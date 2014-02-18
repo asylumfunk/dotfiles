@@ -7,10 +7,10 @@ mkdir "${backup_dir}"
 
 find \
 	-mindepth 1 -maxdepth 1 \
-	\! -name '.git' \
-	\! -name '.*.*' \
 	   -name '.*' \
-	-o -name '.*.local' \
+	\! -name '.git' \
+	\! -name '*.swp' \
+	\! -name '*.swo' \
 	-exec sh -c '
 		file=${1##*/}
 		src_backup=${HOME}/${file}
