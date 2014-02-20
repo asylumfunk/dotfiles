@@ -21,6 +21,13 @@ set exrc "read .vimrc and .exrc in the current directory
 set secure "secure mode for reading .vimrc in current dir
 
 """"""""""""""""""""""""""""""""""""""""
+" Formatting                           "
+""""""""""""""""""""""""""""""""""""""""
+set encoding=utf-8 "encoding used internally
+set endofline "write <EOL> for last line in file
+set wrap "long lines wrap and continue on the next line
+
+""""""""""""""""""""""""""""""""""""""""
 " Shortcuts                            "
 """"""""""""""""""""""""""""""""""""""""
 let mapleader = ","
