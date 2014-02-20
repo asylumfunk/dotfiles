@@ -41,4 +41,6 @@ nmap <leader>> <C-W>>
 nmap <leader>s :split 
 nmap <leader>t :tabnew 
 nmap <leader>v :vsplit 
+" Highlight search on/off behavior
+map <silent> <leader><cr> :nohlsearch<cr>
 
