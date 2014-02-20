@@ -15,6 +15,12 @@ set scrolloff=8 "minimum nr. of lines above and below cursor
 syntax enable
 
 """"""""""""""""""""""""""""""""""""""""
+" Configuration                        "
+""""""""""""""""""""""""""""""""""""""""
+set exrc "read .vimrc and .exrc in the current directory
+set secure "secure mode for reading .vimrc in current dir
+
+""""""""""""""""""""""""""""""""""""""""
 " Shortcuts                            "
 """"""""""""""""""""""""""""""""""""""""
 let mapleader = ","
