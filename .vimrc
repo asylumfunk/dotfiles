@@ -5,6 +5,16 @@ runtime bundle/vim-pathogen/autoload/pathogen.vim
 execute pathogen#infect()
 
 """"""""""""""""""""""""""""""""""""""""
+" Appearance                           "
+""""""""""""""""""""""""""""""""""""""""
+colorscheme koehler
+set background=dark "'dark' or 'light', used for highlight colors
+set number "print the line number in front of each line
+set ruler "show cursor line and column in the status line
+set scrolloff=8 "minimum nr. of lines above and below cursor
+syntax enable
+
+""""""""""""""""""""""""""""""""""""""""
 " Shortcuts                            "
 """"""""""""""""""""""""""""""""""""""""
 let mapleader = ","
