@@ -28,6 +28,17 @@ set endofline "write <EOL> for last line in file
 set wrap "long lines wrap and continue on the next line
 
 """"""""""""""""""""""""""""""""""""""""
+" Indenting                            "
+""""""""""""""""""""""""""""""""""""""""
+set autoindent "take indent for new line from previous line
+set copyindent "make 'autoindent' use existing indent structure
+set noexpandtab "(don't) use spaces when <Tab> is inserted
+set smartindent "smart autoindenting for C programs
+set shiftwidth=4 "number of spaces to use for (auto)indent step
+set softtabstop=0 "number of spaces that <Tab> uses while editing
+set tabstop=4 "number of spaces that <Tab> in file uses
+
+""""""""""""""""""""""""""""""""""""""""
 " Shortcuts                            "
 """"""""""""""""""""""""""""""""""""""""
 let mapleader = ","
