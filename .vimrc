@@ -49,8 +49,9 @@ set hlsearch "highlight matches with last search pattern
 """"""""""""""""""""""""""""""""""""""""
 let mapleader = ","
 " buffers
-nmap <leader>w :w!<cr>
 nmap <leader>q :q<cr>
+nmap <leader>w :w!<cr>
+nmap <leader>x :bdelete<cr>
 " change window
 nmap <leader>j <C-W>j
 nmap <leader>k <C-W>k
@@ -83,4 +84,6 @@ nmap <leader>t :tabnew
 nmap <leader>v :vsplit 
 " Highlight search on/off behavior
 map <silent> <leader><cr> :nohlsearch<cr>
+
+nmap <leader>p :set paste!<cr>
 
