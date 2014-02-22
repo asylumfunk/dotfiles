@@ -7,19 +7,37 @@
 	c = commit
 	cm = commit -m
 	d = diff
+	da = apply
 	dc = diff --cached
 	dm = diff master
 	f = fetch
 	fo = fetch origin
+	g = grep
+	h = help
+	i = !git
 	k = checkout
 	kb = checkout -b
 	km = checkout master
 	l = log
 	ll = log --all --decorate --graph --pretty=medium -p
 	m = merge
+	n = init
+	o = clone
 	p = push
 	po = push origin
+	pom = push origin master
+	q = blame
+	r = rebase
+	ri = rebase -i
+	rim = rebase -i master
 	s = status -sb
+	t = stash
+	u = submodule
+	v = revert
+	w = show
+	x = reset
+	y = cherry-pick
+	z = remote
 
 [format]
 	pretty = %Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset
