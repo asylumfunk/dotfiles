@@ -10,6 +10,9 @@
 	da = apply
 	dc = diff --cached
 	dm = diff master
+	e = format-patch
+	ea = am
+	es = send-email
 	f = fetch
 	fo = fetch origin
 	g = grep
