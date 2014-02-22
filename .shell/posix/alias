@@ -6,3 +6,9 @@ eval $(git config --get-regexp '^alias\.[^ ]+' | \
 	sed -e 's/^alias\.\([^ ]*\) \([^ !]\+\)\(.*\)$/alias g\1="git \1";/' \
 	    -e 's/^alias\.\([^ ]*\) \!\(.*\)$/alias g\1="\2";/')
 
+alias l='ls'
+alias la='ls -A'
+alias ll='ls -lF'
+alias lla='ls -lAF'
+alias lal='ls -lAF'
+
