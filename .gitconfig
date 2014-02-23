@@ -37,6 +37,8 @@
 	rim = rebase -i master
 	s = status -sb
 	t = stash
+	ta = stash apply
+	tl = stash list
 	u = submodule
 	v = revert
 	w = show
