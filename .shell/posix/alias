@@ -12,3 +12,7 @@ alias ll='ls -lF'
 alias lla='ls -lAF'
 alias lal='ls -lAF'
 
+alias c='cd'
+alias ...='cd ..; pwd'
+alias ....='cd ../..; pwd'
+alias .....='cd ../../..; pwd'
