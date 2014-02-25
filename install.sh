@@ -9,6 +9,8 @@ find \
 	-mindepth 1 -maxdepth 1 \
 	   -name '.*' \
 	\! -name '.git' \
+	\! -name '.gitignore' \
+	\! -name '.gitmodules' \
 	\! -name '*.swp' \
 	\! -name '*.swo' \
 	-exec sh -c '
