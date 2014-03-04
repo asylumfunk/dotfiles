@@ -27,6 +27,7 @@
 	km = checkout master
 	l = log
 	ll = log --all --decorate --graph --pretty=medium -p
+	lp = log --patch
 	m = merge
 	n = init
 	o = clone
