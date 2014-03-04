@@ -22,6 +22,7 @@
 	h = help
 	i = !git
 	k = checkout
+	k- = checkout --
 	kb = checkout -b
 	km = checkout master
 	l = log
