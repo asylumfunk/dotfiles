@@ -22,3 +22,7 @@ alias k='kill '
 alias k9='kill -9 '
 alias psg='ps aux | grep '
 
+alias sag='sudo apt-get '
+alias sagi='sudo apt-get install '
+alias sagu='sudo apt-get update; sudo apt-get upgrade '
+
