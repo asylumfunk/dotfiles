@@ -16,3 +16,9 @@ alias c='cd'
 alias ...='cd ..; ls'
 alias ....='cd ../..; ls'
 alias .....='cd ../../..; ls'
+
+# process management
+alias k='kill '
+alias k9='kill -9 '
+alias psg='ps aux | grep '
+
