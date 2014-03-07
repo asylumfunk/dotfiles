@@ -4,6 +4,7 @@
 	au = add -u
 	b = branch
 	ba = branch --all
+	bam = branch --all --merged
 	bd = branch --delete
 	bm = branch --merged
 	c = commit
