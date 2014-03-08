@@ -8,6 +8,7 @@
 	bd = branch --delete
 	bm = branch --merged
 	c = commit
+	ca = commit --amend
 	cm = commit -m
 	d = diff
 	da = apply
