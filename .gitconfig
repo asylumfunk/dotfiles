@@ -32,6 +32,8 @@
 	ll = log --all --decorate --graph --pretty=medium -p
 	lp = log --patch
 	m = merge
+	mom = merge origin/master
+	mum = merge upstream/master
 	n = init
 	o = clone
 	p = push
@@ -41,6 +43,8 @@
 	r = rebase
 	ri = rebase -i
 	rim = rebase -i master
+	rom = rebase origin/master
+	rum = rebase upstream/master
 	s = status -sb
 	t = stash
 	ta = stash apply
