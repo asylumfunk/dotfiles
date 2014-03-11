@@ -37,6 +37,7 @@ set smartindent "smart autoindenting for C programs
 set shiftwidth=4 "number of spaces to use for (auto)indent step
 set softtabstop=0 "number of spaces that <Tab> uses while editing
 set tabstop=4 "number of spaces that <Tab> in file uses
+set list listchars=tab:>-,trail:.,extends:>,precedes:<
 
 """"""""""""""""""""""""""""""""""""""""
 " Search                               "
