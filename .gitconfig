@@ -41,6 +41,7 @@
 	pom = push origin master
 	q = blame
 	r = rebase
+	ra = rebase --abort
 	ri = rebase -i
 	rim = rebase -i master
 	rom = rebase origin/master
