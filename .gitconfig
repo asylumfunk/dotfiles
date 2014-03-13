@@ -33,6 +33,7 @@
 	lp = log --patch
 	m = merge
 	mom = merge origin/master
+	ms = merge --squash
 	mum = merge upstream/master
 	n = init
 	o = clone
