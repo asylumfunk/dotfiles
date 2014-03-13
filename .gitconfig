@@ -15,6 +15,7 @@
 	dc = diff --cached
 	dm = diff master
 	dom = diff origin/master
+	dum = diff upstream/master
 	e = format-patch
 	ea = am
 	es = send-email
